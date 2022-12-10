@@ -1,0 +1,13 @@
+{
+  "name": "vanilla-output-code",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.12.1",
+    "npm": "8.19.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "warugaki",
+  "license": "MIT"
+}
