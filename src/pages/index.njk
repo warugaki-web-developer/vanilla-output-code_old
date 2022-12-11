@@ -1,4 +1,11 @@
 <div>
   <h1>hello world</h1>
   <p>index page</p>
+  <ul>
+    {% for page in collections.all %}
+    <li>
+      <a href="{{ page.url | url }}">{{ page.data.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
