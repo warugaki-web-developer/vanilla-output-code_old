@@ -1,5 +1,6 @@
 module.exports = {
   layout: 'base.njk',
   permalink: 'index.html',
-  title: 'index page',
+  title: 'Vanilla Output Code',
+  description: 'Vanilla Output Code',
 }
