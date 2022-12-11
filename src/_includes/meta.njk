@@ -1,0 +1,21 @@
+<meta name="description" content="{{ description or metaData.siteDescription }}" />
+<link rel="canonical" href="{{ metaData.siteUrl }}{{ page.url }}" />
+<meta name="generator" content="{{ eleventy.generator }}" />
+
+{# Open Graph Protocol #}
+<meta property="og:title" content="{{ title or metaData.siteTitle }}" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="{{ metaData.siteUrl }}{{ '/assets/img/favicon/ogp.png' | url }}" />
+<meta property="og:url" content="{{ metaData.siteUrl }}{{ page.url }}" />
+<meta property="og:description" content="{{ description  or metaData.siteDescription }}" />
+<meta property="og:site_name" content="{{ metaData.siteTitle }}" />
+<meta property="og:locale" content="{{ metaData.locale }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ title or metaData.siteTitle }}" />
+<meta name="twitter:description" content="{{ description or metaData.siteDescription }}" />
+
+{# Favicon #}
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/favicon/apple-touch-icon.png' | url }}" />
+<link rel="icon" type="image/png" href="{{ '/assets/img/favicon/favicon-32x32.png' | url }}" sizes="32x32" />
+<link rel="icon" type="image/png" href="{{ '/assets/img/favicon/favicon-16x16.png' | url }}" sizes="16x16" />
+<link rel="shortcut icon" href="{{ '/assets/img/favicon/favicon.ico' | url }}" />
