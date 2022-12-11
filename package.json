@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf build",
-    "dev": "npx @11ty/eleventy --serve --quiet --incremental",
+    "dev": "npm run clean && npx @11ty/eleventy --serve --quiet --incremental",
     "build": "npx @11ty/eleventy",
     "format:check": "prettier --check --ignore-path .gitignore './**/*.{js,ts,json,css}'",
     "format:fix": "prettier --write --ignore-path .gitignore './**/*.{js,ts,json,css}'"
