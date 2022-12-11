@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | url }}" />
   </head>
   <body>
-    <div id="root">
+    <div id="root" {% if pageClass %}class="{{ pageClass }}" {% endif %}>
       {% include "header.njk" %}
       <main class="site-main">
         {{ content | safe }}

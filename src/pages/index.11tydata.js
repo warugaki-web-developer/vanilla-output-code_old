@@ -3,4 +3,5 @@ module.exports = {
   permalink: 'index.html',
   title: 'Vanilla Output Code',
   description: 'Vanilla Output Code',
+  pageClass: 'home',
 }
