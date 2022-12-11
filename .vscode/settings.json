@@ -4,6 +4,10 @@
   "[nunjucks]": {
     "editor.defaultFormatter": "okitavera.vscode-nunjucks-formatter"
   },
+  "files.associations": {
+    "*.njk": "html",
+    "**/robots.txt.njk": "nunjucks"
+  },
   "emmet.includeLanguages": {
     "njk": "html",
     "nunjucks": "html"
