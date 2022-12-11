@@ -1,3 +1,4 @@
+build
 # Windows thumbnail cache files
 Thumbs.db
 Thumbs.db:encryptable
@@ -29,7 +30,8 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*

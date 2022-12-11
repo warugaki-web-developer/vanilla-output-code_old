@@ -7,6 +7,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @11ty/eleventy --serve --quiet --incremental",
     "format:check": "prettier --check --ignore-path .gitignore './**/*.{js,ts,json,css}'",
     "format:fix": "prettier --write --ignore-path .gitignore './**/*.{js,ts,json,css}'"
   },
